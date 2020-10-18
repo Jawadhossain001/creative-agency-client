@@ -1,0 +1,172 @@
+.dashboard-wrapper {
+	width: 100%;
+	height: 100vh;
+}
+
+.dashboard-data {
+	background: #f4f7fc;
+}
+
+.dashboard-data header {
+	background: #fff;
+}
+
+.sidebar-buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.sidebar-buttons .btn {
+	text-align: left;
+}
+
+.sidebar-buttons .btn i {
+	margin-right: 5px;
+}
+
+/* ********************** Order Form */
+form.order-form {
+	max-width: 570px;
+}
+
+form.order-form .form-control,
+form.order-form .form-control::placeholder {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+form.order-form .form-control {
+	height: 60px;
+	border: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.396px;
+	color: rgb(0 0 0 / 53%);
+	padding: 15px;
+	border-radius: 5px;
+}
+
+input.form-control[type="file"] {
+	background: #deffed;
+	border: 1px solid #009444;
+	box-sizing: border-box;
+	color: #009444;
+}
+input.form-control[type="file"]::-webkit-file-upload-button {
+	display: none;
+	line-height: 30px;
+}
+
+/* ********************** Service List */
+.service-list-card {
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 24px;
+}
+
+.service-list-card img {
+	width: 74px;
+	height: 74px;
+	border-radius: 50%;
+	margin-right: auto;
+}
+
+.service-list-card button.btn {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	padding: 9px 23px;
+}
+
+.service-list-card h4 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 0.396px;
+	color: #111430;
+}
+
+.service-list-card p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.396px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0;
+}
+
+.dashboard-data header div {
+	display: flex;
+	align-items: center;
+}
+
+.dashboard-data header div > img {
+	width: 33px;
+	border-radius: 50%;
+	margin-right: 4px;
+}
+.dashboard-data header div > i {
+	margin-right: 4px;
+}
+
+/* ********************** Service List Admin */
+.service-list-admin {
+	padding: 23px 18px;
+	background: #ffffff;
+	border-radius: 20px;
+}
+.service-list-admin table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.service-list-admin table thead th {
+	background: #f5f6fa;
+}
+.service-list-admin table th,
+.service-list-admin table td {
+	padding: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #686868;
+}
+.service-list-admin table td {
+	padding: 10px 20px;
+	color: #000;
+}
+
+.service-list-admin table thead th:first-child {
+	border-radius: 13px 0 0 13px;
+}
+.service-list-admin table thead th:last-child {
+	border-radius: 0 13px 13px 0;
+}
+
+.service-list-admin table .btn {
+	padding: 5px;
+	padding-top: 3px;
+}
+.service-list-admin table tr:first-child td {
+	padding-top: 20px;
+}
+.service-list-admin table .description {
+	width: 25%;
+}
+@media (max-width: 767px) {
+	.service-list-admin {
+		overflow-x: scroll;
+	}
+
+	.service-list-admin table th {
+		padding: 15px 10px;
+	}
+	.service-list-admin table td {
+		padding: 10px;
+	}
+}
+
+select {
+	border: none;
+	outline: none;
+	cursor: context-menu;
+}

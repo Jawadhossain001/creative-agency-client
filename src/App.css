@@ -1,0 +1,81 @@
+:root {
+	--brand-yellow: #fbd062;
+	--brand-green: #7ab259;
+}
+
+#root {
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	/* or 175% */
+	letter-spacing: 0.396px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+button:focus {
+	outline: none;
+}
+
+.btn {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 5px;
+}
+.btn-dark {
+	padding: 10px 35px;
+	background: #111430;
+	color: #ffffff;
+}
+
+.section-title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 43px;
+	/* identical to box height, or 126% */
+	letter-spacing: 0.396px;
+	color: #2d2d2d;
+}
+
+.brand-green {
+	color: var(--brand-green);
+}
+.brand-yellow {
+	color: var(--brand-yellow);
+}
+
+.card-title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.6;
+	letter-spacing: 0.396px;
+	color: #111430;
+}
+
+.card-text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.396px;
+	color: rgba(0, 0, 0, 0.7);
+}

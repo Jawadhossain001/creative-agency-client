@@ -1,0 +1,26 @@
+.projects {
+	background: #111430;
+}
+
+.slick-slide > div {
+	margin: 0 22px;
+}
+
+.project-slide {
+	outline: none;
+}
+
+.projects .slick-dots li button {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #242a65;
+	transition: 0.15s linear;
+}
+
+.projects .slick-dots li.slick-active button {
+	background: #fbd062;
+}
+.projects .slick-dots li button:before {
+	visibility: hidden;
+}
